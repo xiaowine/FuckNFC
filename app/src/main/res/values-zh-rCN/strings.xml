@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fuck NFC</string>
+    <string name="xposed_desc">去除NFC识别时的声音，重启生效</string>
+</resources>
