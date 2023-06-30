@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Fuck NFC</string>
-    <string name="xposed_desc">Remove the sound when NFC is recognized，The restart takes effect</string>
+    <string name="xposed_desc">Remove the sound when NFC is recognized,the information screen is also recognizable,The restart takes effect</string>
 </resources>

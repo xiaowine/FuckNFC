@@ -13,5 +13,13 @@ object NFC : BaseHook() {
                 it.result = null
             }
         }
+
+        loadClass("com.android.nfc.NfcService").methodFinder().filterByName("sendMessage").first().createHook {
+            before {
+                if (it.args[1] == 2 || it.args[1] == 4) {
+                    it.args[1] = 8
+                }
+            }
+        }
     }
 }

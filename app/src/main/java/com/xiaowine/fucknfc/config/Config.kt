@@ -43,7 +43,7 @@ class Config {
             if (BuildConfig.DEBUG) {
                 return true
             }
-            return config.opt("printXpLog", false)
+            return config.opt("printXpLog", true)
         }
         set(value) {
             config.put("printXpLog", value)
